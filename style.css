@@ -46,7 +46,8 @@ Last Update: Feb 22, 2019
   padding: 0; }
 
 :root {
-    --accent-color: #498763
+    --accent-color: #498763;
+    --secondary-color: #2f5159;
 }
 
 body {
@@ -388,6 +389,7 @@ input:required {
     color: #ffffff; }
 
 /* :: 5.0 Backtotop CSS */
+/*
 #scrollUp {
   position: fixed;
   right: 40px;
@@ -413,6 +415,7 @@ input:required {
   #scrollUp:focus, #scrollUp:hover {
     background-color: #000000;
     color: #ffffff; }
+*/
 
 /* :: 6.0 Buttons CSS */
 .btn:focus {
@@ -1595,7 +1598,7 @@ input:required {
       font-size: 30px;
       color: #ffffff; }
       .single-portfolio-content .hover-content a:hover, .single-portfolio-content .hover-content a:focus {
-        background-color: #000000; }
+        background-color: var(--secondary-color); }
   .single-portfolio-content:hover img, .single-portfolio-content:focus img {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
